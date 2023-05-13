@@ -1,0 +1,102 @@
+/*==============
+index .php
+===================*/
+.login{
+  width: 300px;
+  box-shadow:0px 2px 10px 3px #222;
+  margin-top: 10rem;
+  border-radius: 5px;
+}
+.login h4{
+  padding: 1rem;
+}
+/*===================
+navbar
+====================*/
+.my-img{
+  width: 50px;
+  border-radius: 50%;
+}
+nav .my-info{
+  margin-top: 1rem;
+  background-color: rgb(63, 60, 60);
+  height: 5rem;
+  display: flex;
+  
+}
+nav .my-info input{
+ margin-top: 1rem;
+ margin-left: auto;
+}
+nav .my-info .btn-info{
+  margin-top: 1rem;
+ 
+}
+nav .my-info input:focus{
+outline: none;
+}
+nav .my-info input{
+ height: 30px;
+ border-radius: 5px;
+ padding-left: 9px;
+  }
+  /*===============
+  start members page
+  ==================*/
+  .avatar{
+    width:4rem;
+    height: 4rem;
+    border-radius:50%;
+  }
+  .fa-close {
+    cursor: pointer;
+  }
+  /*===============
+  start category page
+  =============*/
+  .option span{
+cursor: pointer;
+  }
+  .option .active{
+    color: green;
+    font-weight: bold;
+  }
+  /*=================
+  start dashboard
+  ===================*/
+  .row .stat{
+    border:double; 
+    border-radius: 5px;
+    box-shadow: -8px -4px 10px 6px #6d69ae;
+  }
+  .row .stat i{
+    font-size: 7rem;
+  }
+  .row .stat .info{
+    font-weight: 600;
+  }
+  .info span a{
+    color: white;
+  }
+  .st-members{
+background: #cf5151;
+padding: 2rem;
+  }
+  .st-panding{
+   background: #0fabb6;
+padding: 2rem;
+
+      }
+ .st-item{
+ background: #28c214;
+padding: 2rem;
+
+          }
+ .st-comment{
+   background: #b10c0c;
+padding: 2rem;
+
+              }
+
+
+
